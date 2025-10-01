@@ -295,7 +295,7 @@ Dedicated page for editing task details
 ```bash
 Confirmation modal for safe task deletion
 ```
-![Page Delete Task](./img/delete)
+![Page Delete Task](./img/delete.PNG)
 
 **Notifications**
 
