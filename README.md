@@ -10,9 +10,6 @@ A modern, real-time task management application built with React.js frontend and
 - [Environment Variables](#environment-variables)
 - [API Documentation](#api-documentation)
 - [Screenshots](#screenshots)
-- [Development](#development)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
 
 ## ✨ Features
 
@@ -58,10 +55,9 @@ A modern, real-time task management application built with React.js frontend and
 
 ### Backend
 - **Laravel 11** - PHP framework
-- **PostgreSQL/MySQL** - Database
+- **MySQL** - Database
 - **JWT Authentication** - Stateless auth
 - **Laravel Sanctum** - API authentication
-- **RESTful API** - Clean API architecture
 
 ## 🚀 Installation
 
@@ -69,14 +65,14 @@ A modern, real-time task management application built with React.js frontend and
 - Node.js 18+ 
 - PHP 8.2+
 - Composer
-- PostgreSQL/MySQL
+- MySQL
 - Git
 
 ### Backend Setup (Laravel)
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/YoussoufEfkiren/ToDoList
 cd backend
 ```
 2. **Install dependencies**
@@ -85,7 +81,6 @@ composer install
 ```
 3. **Environment configuration**
 ```bash
-bash
 cp .env.example .env
 php artisan key:generate
 ```
@@ -134,7 +129,7 @@ npm install
 ```bash
 npm run dev
 ```
-### Environment Variables
+## Environment Variables
 
 1. **Backend (.env)**
 ```bash
@@ -158,7 +153,7 @@ JWT_SECRET=your_jwt_secret_here
 ```bash
 VITE_API_URL=http://localhost:8000/api
 ```
-### API Documentation
+## API Documentation
 
 **Authentication Endpoints**
 | Method | Endpoint           | Description       |  Body                                  |
@@ -261,50 +256,42 @@ Response:
   }
 }
 ```
-### Screenshots
+## Screenshots
 **Authentication**
 ```bash
-https://./screenshots/login.png
+![Page Inscription](./img/login.png)
 Clean login interface with form validation
 ```
 ```bash
-https://./screenshots/register.png
+![Page Login](./img/reg.png)
 User registration with optional image upload
 ```
 **Dashboard & Task Management**
 ```bash
-https://./screenshots/dashboard.png
+![Page Dashboard](./img/dash.png)
 Main dashboard with task statistics, filtering, and dual view modes
 ```
 ```bash
-https://./screenshots/grid-view.png
+![Page Task Card](./img/task.png)
 Grid view displaying tasks as cards with quick actions
 ```
 ```bash
-https://./screenshots/list-view.png
-List view for detailed task display with inline actions
-```
-```bash
 Task Operations
-https://./screenshots/create-task.png
+![Page Create Task](./img/create.png)
 Modal popup for creating new tasks with form validation
 ```
 ```bash
-https://./screenshots/edit-task.png
+![Page Edit Task](./img/edit.png)
 Dedicated page for editing task details
 ```
 ```bash
-https://./screenshots/delete-modal.png
+![Page Delete Task](./img/delete)
 Confirmation modal for safe task deletion
 ```
 **Notifications**
 ```bash
-https://./screenshots/notifications-dropdown.png
+![Page Notifications](./img/notifi.png)
 Dropdown showing recent tasks with unread indicators
-```
-```bash
-https://./screenshots/user-menu.png
-User dropdown with notifications count and logout
 ```
 ### Project Structure
 ```text
