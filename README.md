@@ -73,6 +73,7 @@ A modern, real-time task management application built with React.js frontend and
 1. **Clone the repository**
 ```bash
 git clone https://github.com/YoussoufEfkiren/ToDoList
+cd STG
 cd backend
 ```
 2. **Install dependencies**
