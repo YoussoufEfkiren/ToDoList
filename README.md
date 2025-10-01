@@ -267,32 +267,31 @@ Clean login interface with form validation
 User registration with optional image upload
 ```
 **Dashboard & Task Management**
-```bash
+
 ![Page Dashboard](/img/dash.PNG)
 Main dashboard with task statistics, filtering, and dual view modes
-```
-```bash
+
+
 ![Page Task Card](/img/task.PNG)
 Grid view displaying tasks as cards with quick actions
-```
-```bash
+
+
 Task Operations
 ![Page Create Task](/img/create.PNG)
 Modal popup for creating new tasks with form validation
-```
-```bash
+
+
 ![Page Edit Task](/img/edit.PNG)
 Dedicated page for editing task details
-```
-```bash
+
+
 ![Page Delete Task](/img/delete)
 Confirmation modal for safe task deletion
-```
+
 **Notifications**
-```bash
+
 ![Page Notifications](/img/notifi.PNG)
-Dropdown showing recent tasks with unread indicators
-```
+
 ### Project Structure
 ```text
 📦 task-manager/
