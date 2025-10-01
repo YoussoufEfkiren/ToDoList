@@ -258,39 +258,37 @@ Response:
 ```
 ## Screenshots
 **Authentication**
-```bash
-![Page Inscription](/img/login.PNG)
+![Page Inscription](./img/login.PNG)
 *Clean login interface with form validation*
-```
-```bash
-![Page Login](/img/reg.PNG)
+
+![Page Login](./img/reg.PNG)
 *User registration with optional image upload*
-```
+
 **Dashboard & Task Management**
 
-![Page Dashboard](/img/dash.PNG)
+![Page Dashboard](./img/dash.PNG)
 *Main dashboard with task statistics, filtering, and dual view modes*
 
 
-![Page Task Card](/img/task.PNG)
+![Page Task Card](./img/task.PNG)
 *Grid view displaying tasks as cards with quick actions*
 
 
 Task Operations
-![Page Create Task](/img/create.PNG)
+![Page Create Task](./img/create.PNG)
 *Modal popup for creating new tasks with form validation*
 
 
-![Page Edit Task](/img/edit.PNG)
+![Page Edit Task](./img/edit.PNG)
 *Dedicated page for editing task details*
 
 
-![Page Delete Task](/img/delete)
+![Page Delete Task](./img/delete)
 *Confirmation modal for safe task deletion*
 
 **Notifications**
 
-![Page Notifications](/img/notifi.PNG)
+![Page Notifications](./img/notifi.PNG)
 *Dropdown showing recent tasks with unread indicators*
 
 ### Project Structure
