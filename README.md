@@ -167,11 +167,11 @@ VITE_API_URL=http://localhost:8000/api
 
 | Method | Endpoint           | Description       |  Body                                  |
 |--------|--------------------|-------------------|----------------------------------------|
-|  GET   | /api/auth/register | User registration | name, email, password, image(optional) |
-|  POST  | /api/auth/login    | User login        | email, password                        |
-|  GET   | /api/auth/logout   | User logout       | Bearer token                           |
-|  PUT   | /api/auth/register | User registration | name, email, password, image(optional) |
-|  DELETE| /api/auth/login    | User login        | email, password                        |
+|  GET   | /api/tasks         | Get user's tasks  | name, email, password, image(optional) |
+|  POST  | /api/tasks	      | Create new task   | email, password                        |
+|  GET   | /api/tasks/{id}	  | Get specific task | Bearer token                           |
+|  PUT   | /api/tasks/{id}	  | Update task       | name, email, password, image(optional) |
+|  DELETE| /api/tasks/{id}	  | Delete task       | email, password                        |
 
 ### Request/Response Examples
 
@@ -258,38 +258,51 @@ Response:
 ```
 ## Screenshots
 **Authentication**
+```bash
+Clean login interface with form validation
+```
 ![Page Inscription](./img/login.PNG)
-*Clean login interface with form validation*
 
+```bash
+User registration with optional image upload
+```
 ![Page Login](./img/reg.PNG)
-*User registration with optional image upload*
 
 **Dashboard & Task Management**
 
+```bash
+Main dashboard with task statistics, filtering, and dual view modes
+```
 ![Page Dashboard](./img/dash.PNG)
-*Main dashboard with task statistics, filtering, and dual view modes*
 
-
+```bash
+Grid view displaying tasks as cards with quick actions
+```
 ![Page Task Card](./img/task.PNG)
-*Grid view displaying tasks as cards with quick actions*
 
+**Task Operations**
 
-Task Operations
+```bash
+Modal popup for creating new tasks with form validation
+```
 ![Page Create Task](./img/create.PNG)
-*Modal popup for creating new tasks with form validation*
 
-
+```bash
+Dedicated page for editing task details
+```
 ![Page Edit Task](./img/edit.PNG)
-*Dedicated page for editing task details*
 
-
+```bash
+Confirmation modal for safe task deletion
+```
 ![Page Delete Task](./img/delete)
-*Confirmation modal for safe task deletion*
 
 **Notifications**
 
+```bash
+Dropdown showing recent tasks with unread indicators
+```
 ![Page Notifications](./img/notifi.PNG)
-*Dropdown showing recent tasks with unread indicators*
 
 ### Project Structure
 ```text
